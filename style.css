@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #212226;
+    color: whitesmoke;
+}
+
+header {
+    margin-bottom: 4.5vh;
+}
+
+#nav-bar {
+    margin: auto;
+}
+
+#nav {
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+#nav a{
+    padding: 7px;
+    color: white;
+    font-size: 2vh;
+    border-bottom: 2px solid #cf973d;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    border: 0px 4px solid #cf973d;
+    box-shadow: 3px 1px 25px #cf973d;
+    border-radius: 20px;
+    font-size: 2.05vh;
+}
+
+#logo {
+    text-align: center;
+    font-size: 21px;
+    margin: 20px;
+    color: #e4a746;
+}
+
+#box {
+    border-radius: 15px;
+    width: 1200px;
+    margin: auto;
+    max-width: 90vw;
+    display: flex;
+    justify-content: space-around   ;
+    background-color: #292a2e;
+    flex-wrap: wrap;
+}
+
+#box-logo {
+    text-align: center;
+    width: 280px;
+    border: 2px solid #fb9b00c0;
+    box-shadow: 5px 2px 11px #cf973d8f;
+    border-radius: 30px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 20px;
+    color: #fdcc62b4;
+}
+
+#box-telefone {
+    font-size: 18px;
+    padding: 25px;
+    text-align: center;
+    color: #cf973d ;
+    line-height: 2.5em;
+    letter-spacing: 7px;
+}
+
+hr {
+    margin: auto;
+    width: 90%;
+}
+
+#box-endereco {
+    line-height: 2em;
+    margin: 45px;
+    color: #cf973d;
+    text-align: center;
+} 
+
+#sec1 {
+    font-size: 20px;
+    max-width: 100%;
+}
+
+#sec1 h1 {
+    max-width: 100vw;
+}
+
+#sec2 img  {
+    width: 855px;
+    max-width: 100%;
+    height: 100%;
+}
+
+#horario {
+    background-color: #1A1A1D;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    max-width: 900px;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 2px 6px 12px #49494983;
+}
+
+#horario span { 
+    color: #cf973d;
+    font-size: 40px;
+}  
+
+iframe {
+    height: 550px;
+    padding-bottom: 5vh;
+    padding-top: 4vh;
+    margin-left: 16%;
+    width: 70%;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    background-color: #14181abb;
+    padding: 20px;
+}
